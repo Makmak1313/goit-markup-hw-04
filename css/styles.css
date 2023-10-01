@@ -62,7 +62,7 @@ letter-spacing: 0.02em;
 padding: 24px 0;
 }
 
-.header-link::after {
+.current::after {
 content: "";
 position: absolute;
 left: 0;
@@ -72,6 +72,10 @@ height: 4px;
 background-color: #404BBF;
 border-radius: 2px;
 }
+.header-link.current {
+color: #404bbf;
+}
+
 .header-link:hover, 
 .header-link:focus,
 .header-link:active {
@@ -126,6 +130,7 @@ background-position: center;
 background-size: cover;
 padding: 188px 0;
 max-width: 1440px;
+margin: o auto;
 }
 .main-sector-name {
 color:  #FFF;
@@ -276,6 +281,7 @@ font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.32px;
 text-align: center;
+margin-bottom: 8px;
 }
 .sub-title {
 background-color: #FFFFFF
